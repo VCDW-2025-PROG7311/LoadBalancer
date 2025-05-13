@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ENQHfKljWpo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ebada\\OneDrive\\Desktop\\PROG7311 2025\\LoadBalancer\\Api\\Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ebada\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.4\\microsoft.aspnetcore.openapi.9.0.4.nupkg.sha512",
+    "C:\\Users\\ebada\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

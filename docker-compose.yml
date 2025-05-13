@@ -1,0 +1,60 @@
+services:
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - "8090:80"
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/nginx.conf:ro
+    depends_on:
+      - api1
+      - api2
+      - api3
+      - api4
+      - api5
+      - api6
+      - api7
+      - api8
+      - api9
+      - api10
+
+  api1:
+    build: ./api
+    container_name: api1
+    hostname: api1
+  api2:
+    build: ./api
+    container_name: api2
+    hostname: api2
+  api3:
+    build: ./api
+    container_name: api3
+    hostname: api3
+  api4:
+    build: ./api
+    container_name: api4
+    hostname: api4
+  api5:
+    build: ./api
+    container_name: api5
+    hostname: api5
+  api6:
+    build: ./api
+    container_name: api6
+    hostname: api6
+  api7:
+    build: ./api
+    container_name: api7
+    hostname: api7
+  api8:
+    build: ./api
+    container_name: api8
+    hostname: api8
+  api9:
+    build: ./api
+    container_name: api9
+    hostname: api9
+  api10:
+    build: ./api
+    container_name: api10
+    hostname: api10
