@@ -188,8 +188,6 @@ This starts:
 - `api1` to `api10` (.NET 9 APIs)
 - `nginx` load balancer on `localhost:8090`
 
----
-
 ### 🧪 Test the Load Balancer
 
 #### PowerShell (Windows)
