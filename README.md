@@ -198,6 +198,10 @@ This starts:
     Write-Output "$($_) - $($res.Content)"
 }
 ```
+Run this command in CMD:
+```
+powershell -ExecutionPolicy Bypass -File .\test-load.ps1
+```
 
 You’ll see responses from each API container like:
 ```
